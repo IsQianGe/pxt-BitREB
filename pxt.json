@@ -16,5 +16,6 @@
     "public": false,
     "supportedTargets": [
         "microbit"
-    ]
+    ],
+    "preferredEditor": "tsprj"
 }
