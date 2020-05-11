@@ -14,5 +14,7 @@
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "supportedTargets": [
+        "microbit"
+    ]
 }
