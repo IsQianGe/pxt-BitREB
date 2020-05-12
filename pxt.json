@@ -1,14 +1,13 @@
 {
-    "name": "pxt-abc",
+    "name": "pxt-BitREB",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "BitREB.ts"
     ],
     "testFiles": [
         "test.ts"
