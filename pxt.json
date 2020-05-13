@@ -1,5 +1,5 @@
 {
-    "name": "pxt-BitREB",
+    "name": "motor",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -7,12 +7,13 @@
     },
     "files": [
         "README.md",
-        "BitREB.ts"
+        "motor.ts",
+        "_locales/zh/motor-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
+    "public": true,
     "supportedTargets": [
         "microbit"
     ],
