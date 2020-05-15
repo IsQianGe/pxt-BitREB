@@ -1,5 +1,5 @@
 {
-    "name": "motor",
+    "name": "BitREB",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -8,7 +8,7 @@
     "files": [
         "README.md",
         "motor.ts",
-        "_locales/zh/motor-strings.json"
+        "_locales/zh/BitREB-strings.json"
     ],
     "testFiles": [
         "test.ts"
