@@ -7,7 +7,7 @@
     },
     "files": [
         "README.md",
-        "motor.ts",
+        "BitREB.ts",
         "_locales/zh/BitREB-strings.json"
     ],
     "testFiles": [
