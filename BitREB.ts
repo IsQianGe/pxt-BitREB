@@ -689,28 +689,28 @@ namespace BitREB {
                 MotorSpeed(Motors.M4, speed);
                 break;
             case Dir.upleft:
-                MotorSpeed(Motors.M1, 35);
+                MotorSpeed(Motors.M1, 0);
                 MotorSpeed(Motors.M2, speed);
                 MotorSpeed(Motors.M3, speed);
-                MotorSpeed(Motors.M4, 35);
+                MotorSpeed(Motors.M4, 0);
                 break;
             case Dir.upright:
                 MotorSpeed(Motors.M1, speed);
-                MotorSpeed(Motors.M2, 35);
-                MotorSpeed(Motors.M3, 35);
+                MotorSpeed(Motors.M2, 0);
+                MotorSpeed(Motors.M3, 0);
                 MotorSpeed(Motors.M4, speed);
                 break;
             case Dir.downleft:
                 MotorSpeed(Motors.M1, -speed);
-                MotorSpeed(Motors.M2, -35);
-                MotorSpeed(Motors.M3, -35);
+                MotorSpeed(Motors.M2, 0);
+                MotorSpeed(Motors.M3, 0);
                 MotorSpeed(Motors.M4, -speed);
                 break;
             case Dir.downright:
-                MotorSpeed(Motors.M1, -35);
+                MotorSpeed(Motors.M1, 0);
                 MotorSpeed(Motors.M2, -speed);
                 MotorSpeed(Motors.M3, -speed);
-                MotorSpeed(Motors.M4, -35);
+                MotorSpeed(Motors.M4, 0);
                 break;
             case Dir.stop:
                 MotorSpeed(Motors.M1, 0);
